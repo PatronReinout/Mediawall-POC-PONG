@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<link
+		href="https://fonts.googleapis.com/css?family=Anton|Cairo|Open+Sans&display=swap"
+		rel="stylesheet"
+	/>
+
+	<link rel="stylesheet" type="text/css" href="pingpong.css" />
+	<script src="pingpong.js"></script>
+	<body style="display:flex; justify-content:center;" onload="startBall()">
+		<div class="vertical"></div>
+		<div
+			style="font-size: 300px;color: white; font-family: Cairo sans-serif; margin: auto 0; width: 300px;height: 50%; min-width: 960px;"
+		>
+			<span
+				style="position:fixed; left: 300px; top:200px; display: block;"
+				id="score1"
+				>0
+			</span>
+			<span
+				style="position:fixed; left: 1000px; top:200px; display: block;"
+				id="score2"
+				>0</span
+			>
+			<span
+				style="position:fixed; left: 200px; top:200px; display: none; font-size: 150px;"
+				id="win0"
+				>PLAYER 1 WINS</span
+			>
+			<span
+				style="position:fixed; left: 200px; top:200px; display: none; font-size: 150px;"
+				id="win1"
+				>PLAYER 2 WINS</span
+			>
+		</div>
+		<div id="btn">
+			<a href="https://www.instagram.com/fontys_communicatie_eindhoven/">
+				<img src="button.png"
+			/></a>
+		</div>
+		<div id="paddle1"></div>
+		<div id="ball"></div>
+		<div id="paddle2"></div>
+	</body>
+</html>
